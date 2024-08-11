@@ -1,0 +1,49 @@
+{
+  "project_info": {
+    "project_number": "658547254801",
+    "firebase_url": "https://cast-a-vote-default-rtdb.firebaseio.com",
+    "project_id": "cast-a-vote",
+    "storage_bucket": "cast-a-vote.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:658547254801:android:cc7eb2b77f17ff17e8f3b0",
+        "android_client_info": {
+          "package_name": "com.lelei.cast_a_vote"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBZEjaHOtI_0nis7j1OQxVgnfr54EOT0Ow"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:658547254801:android:2465a7abc528795de8f3b0",
+        "android_client_info": {
+          "package_name": "com.lelei.dekutvote"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBZEjaHOtI_0nis7j1OQxVgnfr54EOT0Ow"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

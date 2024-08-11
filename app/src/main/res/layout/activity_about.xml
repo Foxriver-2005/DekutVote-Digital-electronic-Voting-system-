@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".About">
+
+    <View
+        android:id="@+id/view7"
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:background="@drawable/background"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView40"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="About this app"
+        android:textColor="@color/colorBackground"
+        android:textSize="25sp"
+        app:layout_constraintEnd_toEndOf="@+id/view7"
+        app:layout_constraintStart_toStartOf="@+id/view7"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/view7">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textView41"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:layout_marginTop="8dp"
+                android:text="Project Context"
+                android:textColor="@color/black"
+                android:textSize="16sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView43"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginEnd="20dp"
+                android:layout_marginRight="20dp"
+                android:isScrollContainer="false"
+                android:keepScreenOn="false"
+                android:singleLine="false"
+                android:text="This project was conceived out of the need to provide an accessible and efficient platform for students of Dedan Kimathi University of Technology to meaningfully engage in the democratic process of student elections in this time of pandemic. The researchers believe that especially at a point when there are geographical constraints, digitalizing the electoral process is a step forward in integrating democratic principles within the context of information, communication, and technology (ICT) development.  This project aims to maximize the students’ engagement in their smartphones as a responsible means to vote for the upcoming student elections in DeKUT. While there are limitations to the utility of technology such as accessibility and digital integrity, We will address this by fitting technology to cost-efficient smartphones and by ensuring that potential glitches in the technology are resolved beforehand.  The proponents hope that this innovation will give way for a fair and efficient electoral system in the university campus as well as improve campus practices in the utilization of technology through socially responsible means. It is also our hope that the use of accessible technology such as smartphones will ensure maximum participation from the student population of DeKUT not only in the elections but in other student-related activities as well." />
+
+            <TextView
+                android:id="@+id/textView44"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:text="Purpose and Description of the Project"
+                android:textColor="@color/black"
+                android:textSize="16sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView45"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginEnd="20dp"
+                android:layout_marginRight="20dp"
+                android:text="Most of alike project, the common thing is the jurisdiction when it comes to user specifications. We proponents intend to validate every allowed idea for us to create and visualize the ideal program for the client. This project aims to rationalize elective procedures and minimize the cost of human resource and time. We as well put our efforts to prove a humane system which allows end users to have a freewill upon delivering their designated votes. 	The system allows the administrator to calculate votes in hassle-free and timely manner. It could also allow uninterrupted scrolling and scanning which gives the untamed mobile phone time of the user to be allocated. This could also serve as a social media platform for the students and as well as the faculty members. We wanted more interaction that is why there is also a messaging section which gives candidate and voter more time to justify their votes and candidacy. 	In order to secure students and their freedom to vote, the administrator will send a generated code using e-mail to verify and clarify certain changes with their accounts. It could also allow end users to secure every aspect of their privacy." />
+
+            <TextView
+                android:id="@+id/textView46"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:text="Objectives of the Project"
+                android:textColor="@color/black"
+                android:textSize="16sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView47"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginEnd="20dp"
+                android:layout_marginRight="20dp"
+                android:text="This project aims to develop an efficient voting system in which the whole campus can interact and socialize at the same time. The project aimed at the following:\n 1. To administer automated voting system in an allocated area such as DeKUT-Main Campus.\n 2. To render humane and just voting process for all of the users’ individuality.\n 3. To generate voting results automatically and illustrate graphical representation for the official result of the election.\n 4. Allows interaction for both candidate and voter in order to socialize for their candidacy.\n 5. Provide fine illustrations of both elections and events that needs a polling system.\n 6. To secure that even the unaccounted vote is viewed in order for the partial and official vote to be precise.\n 7. To alter situations such as lack of materials for the election." />
+
+            <TextView
+                android:id="@+id/textView48"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:text="Scope and limitation of the Project"
+                android:textColor="@color/black"
+                android:textSize="16sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView49"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginEnd="20dp"
+                android:layout_marginRight="20dp"
+                android:text="As of today, Dedan Kimathi University of Technology (DeKUT) is implementing a manual voting system as it is the traditional way of declaring an election. It is most commonly misinterpreted that innovation of election or polling system is an interruption of the whole System. The student council in Eastern Visayas State University (EVSU) or also called as Student Affair Services Office (SASO) may in the near future lack the capability to manage school elections and events due to this pandemic. Students may also find election in such times difficult to encounter since many aspects could be a hindrance to it that is why we proponents proposed the project 'Enhanced Voting and Polling System for Student-Related Activities in Dedan Kimathi University of Technology (DeKUT)-Main Campus' to create a reliable and easy to use application that rationalize voting and initiate events for the campus. A system that can automate the voting process and also helps provide more information needed for the voters to perceive more about their ideals even at their own individual homes using a Wi-Fi or a mobile data. The presented project is programmed to bring in information about the enrollee from the system database that will be make an enrollee register as an official voter. But if the student is not officially enrolled, they will not be counted as an official voter. Before they log in, the student must use the username which is their Student Identification Number and the password that is inputted by them after they receive the generated code from the Administrator that is sent through their email account, whether it’s Google Mail or Yahoo Mail after they’re officially enrolled. The code is held for security purposes and voter’s identification to clarify things that could only be used in the mobile app to log in. The process of generating code to the mobile app has a time limit of 10 minutes to ensure security of the user. There are three users: the student,the faculty members and the admin (ADMINISTRATOR). The students are the ones who can either vote or run as candidates. The student can also examine their desired or supported candidate by scanning through the election dashboard which helps them give their vote to the right officials. The faculty members are the ones that are capable of organizing and visualizing the right date and time for the election and event being held inside the campus premises. The admin categorizes ideas from students and faculty member in which they have to decide if they approve such proposals. The admin has the responsibility of maintaining good conduct from student and faculty member and as well as give the individual secured privacy. The proponents also consider some aspects that should be monitored such as limited supplies from students with less capability of having a high-end gadget and as well as poor internet connection. Since we all know that some of the student only depend on allowances and any other government subsidies, that is why we made our system more proficient to low-end phones in order for everyone to count their selves in and not be left behind.We also make sure that the privacy and security is acknowledged, that is why this study is only applicable for Eastern Visayas State University students and faculty members. The only limitation in which we are expected to encounter is for the elections of both Graduate School and Faculty. Our project focuses more on the student on the lower level such as High School and College Level. We aim to generalize more of the aspects of being an undergraduate student for the time being." />
+
+            <TextView
+                android:id="@+id/textView50"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:text="Significance of the Study"
+                android:textColor="@color/black"
+                android:textSize="16sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView51"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginEnd="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginBottom="10dp"
+                android:text="This study is a great help and will serve as a guide to the Students, the Faculty member, Student Affairs and Services Office, and the School. The proponents believe that the result of developing this system can be useful to the source of information and the importance of what is mention below. Dedan Kimathi University of Technology (DeKUT). The campus will have a good identity and feedback when conducting an innovated way of election and its distribution of information about an event as well. Administrator. They have the capability of giving consideration on what to post and give approval on to what change is going to happen within the app. They can also manage results of the elections, check the percentage of votes regarding on how many is registered and as well as manage events according to what it is held for. This study helps lessening the paper works and processes of the officers and staffs when it comes to evaluating sudden changes. Faculty Members. This study may help faculty members be considered as one with the power to vote for their supported/chosen candidate in order for the campus to have such good and competitive leader for the designated position. Candidates. Enhanced Voting and Polling System for Student-Related Activities helps candidates endorse their identity and as well as their party-list during campaign period. Students. Enhanced Voting and Polling System for Student-Related Activities helps give students convenience when it comes to voting and scheme through a relevant piece of information for the incoming event in the campus as well. Future Researchers. The Enhanced Voting and Polling System for Student-Related Activities serves as guide for the future researches to improve their understanding of polling system to develop such kind of system. This study will serve as reference to other advocates that will conduct this kind of system in the near future." />
+        </LinearLayout>
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

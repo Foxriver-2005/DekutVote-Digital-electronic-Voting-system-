@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:id="@+id/registerDetailsUser"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:visibility="visible"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/textProcess">
+
+                <Spinner
+                    android:id="@+id/typeBoxUser"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+                <EditText
+                    android:id="@+id/firstnameBoxUser"
+                    android:layout_width="250dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="8dp"
+                    android:background="@drawable/background_style"
+                    android:drawableRight="@drawable/ic_baseline_info_24"
+                    android:ems="10"
+                    android:hint="First Name"
+                    android:inputType="textCapWords"
+                    android:padding="10dp"
+                    android:textSize="16sp"
+                    android:visibility="visible"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/typeBoxUser" />
+
+                <EditText
+                    android:id="@+id/middleinitialBoxUser"
+                    android:layout_width="250dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:background="@drawable/background_style"
+                    android:drawableRight="@drawable/ic_baseline_info_24"
+                    android:ems="10"
+                    android:hint="Middle Initial"
+                    android:inputType="textCapSentences"
+                    android:maxLength="1"
+                    android:padding="10dp"
+                    android:textSize="16sp"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/firstnameBoxUser" />
+
+                <EditText
+                    android:id="@+id/lastnameBoxUser"
+                    android:layout_width="250dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:background="@drawable/background_style"
+                    android:drawableRight="@drawable/ic_baseline_info_24"
+                    android:ems="10"
+                    android:hint="Last Name"
+                    android:inputType="textCapSentences"
+                    android:padding="10dp"
+                    android:textSize="16sp"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/middleinitialBoxUser" />
+
+                <EditText
+                    android:id="@+id/courseRBoxUser"
+                    android:layout_width="250dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:background="@drawable/background_style"
+                    android:drawableRight="@drawable/ic_baseline_class_24"
+                    android:editable="false"
+                    android:ems="10"
+                    android:focusableInTouchMode="false"
+                    android:hint="Course"
+                    android:inputType="textCapSentences"
+                    android:padding="10dp"
+                    android:textSize="20sp"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/idnumberBoxUser" />
+
+                <EditText
+                    android:id="@+id/emailBoxUser"
+                    android:layout_width="250dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:background="@drawable/background_style"
+                    android:drawableRight="@drawable/ic_email_24"
+                    android:ems="10"
+                    android:hint="Email"
+                    android:inputType="textPersonName"
+                    android:padding="10dp"
+                    android:textSize="16sp"
+                    android:visibility="visible"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/courseRBoxUser" />
+
+                <EditText
+                    android:id="@+id/idnumberBoxUser"
+                    android:layout_width="250dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:background="@drawable/background_style"
+                    android:drawableRight="@drawable/ic_user_24"
+                    android:maxLines="1"
+                    android:maxLength="17"
+                    android:hint="Reg Number"
+                    android:inputType="text"
+                    android:padding="10dp"
+                    android:textSize="16sp"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/lastnameBoxUser" />
+
+                <EditText
+                    android:id="@+id/passwordBoxUser"
+                    android:layout_width="250dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:background="@drawable/background_style"
+                    android:drawableRight="@drawable/ic_lock_24"
+                    android:ems="10"
+                    android:hint="Password"
+                    android:inputType="textPersonName|textPassword"
+                    android:padding="10dp"
+                    android:textSize="16sp"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/emailBoxUser" />
+
+                <EditText
+                    android:id="@+id/passwordconfirmBoxUser"
+                    android:layout_width="250dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:background="@drawable/background_style"
+                    android:drawableRight="@drawable/ic_lock_24"
+                    android:ems="10"
+                    android:hint="Confirm Password"
+                    android:inputType="textPersonName|textPassword"
+                    android:padding="10dp"
+                    android:textSize="16sp"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/passwordBoxUser" />
+
+                <Button
+                    android:id="@+id/registerButtonUser"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="16dp"
+                    android:layout_marginBottom="20dp"
+                    android:text="Register"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/passwordconfirmBoxUser" />
+
+            </androidx.constraintlayout.widget.ConstraintLayout>
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>
